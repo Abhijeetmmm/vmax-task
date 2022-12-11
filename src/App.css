@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  font-size: 1.2rem;
+  box-shadow: 0 0 10 black;
+  border: 1px solid black;
+}
+
+input:focus-within {
+  border: 2px solid rgb(0, 208, 255);
+}
+input:focus {
+  text-decoration: none;
+}
+button {
+  margin: 20px;
+  padding: 20px;
+  width: auto;
+  border: 2px solid red;
+}
+td {
+  text-align: center;
+}
+
+.cls1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cls2 {
+  width: 250px !important;
+}
+.cls3 {
+  display: flex;
+  flex-direction: column;
+}
+.polaroid:hover {
+  z-index: 1;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+  transform: scale(1.07);
+}
+.polaroid1:hover {
+  z-index: 1;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+}
+.cls4 {
+  display: flex;
+  justify-content: center;
+}
